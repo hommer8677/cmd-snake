@@ -32,8 +32,6 @@ void print_field(char** arr, size_t rows = 22, size_t cols = 22) {
 }
 
 inline void fruit(char** arr, int& x, int& y) {
-	x = 1 + rand() % 20;
-	y = 1 + rand() % 20;
 	while (arr[y][x] != ' ') {
 		x = 1 + rand() % 20;
 		y = 1 + rand() % 20;
